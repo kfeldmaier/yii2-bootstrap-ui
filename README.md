@@ -17,7 +17,7 @@ Renders the Bootstrap 3 Panel and adds additional functionality like collapse an
 <!-- Example #1: Content wrapper with options -->
 <?php Panel::begin([
  'collapsible' => true,
- 'title' => 'bin ich', //Yii::t('app', 'Sidebar'),
+ 'title' => Yii::t('app', 'Sidebar'),
  'footerTemplate' => '{imprint} | {contact} | {user}',
  'footerButtons' => [
  'imprint' => function()
@@ -35,14 +35,14 @@ Renders the Bootstrap 3 Panel and adds additional functionality like collapse an
  ]
 ]); ?>
  <p><?= Yii::t('app', 'Application') ?></p>
- <p>This panel is collapsible.</p>
+ <p>This Panel is collapsible.</p>
 <?php Panel::end(); ?>
-<!-- Example #2: Simple pannel without content but options -->
+<!-- Example #2: Simple Panel without content but options -->
 <?= Panel::widget([
  'collapsible' => true,
  'title' => 'Panel 2'
 ]); ?>
-<!-- Example #2: Simple pannel without content but options -->
+<!-- Example #2: Simple Panel without content but options -->
 <?= Panel::widget([
  'collapsible' => true,
  'title' => 'Panel 3',
