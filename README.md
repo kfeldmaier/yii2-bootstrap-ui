@@ -53,7 +53,6 @@ Renders the Bootstrap 3 Panel and adds additional functionality like collapse an
 
 #### Image
 ```php
-<!-- Example #1: Content wrapper with options -->
 <?php 
 <?= Image::widget([
  'shape' => 'rounded',
