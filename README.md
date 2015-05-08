@@ -63,6 +63,8 @@ Renders the Bootstrap 3 Panel and adds additional functionality like collapse an
 
 #### Video
 
+... will follow ...
+
 ## License
 
 **yii2-bootstrap-ui** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
