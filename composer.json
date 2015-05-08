@@ -1,0 +1,23 @@
+{
+    "name": "kfeldmaier/yii2-bootstrap-ui",
+    "description": "Missed Bootstrap extensions for the YII2 Framework.",
+    "keywords": ["yii2", "extension", "widget", "feldmaier", "bootstrap", "ui"],
+    "homepage": "https://github.com/kfeldmaier/yii2-bootstrap-ui",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Kai Feldmaier",
+            "email": "kai.feldmaier@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2-bootstrap": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+
+        }
+    }
+}
